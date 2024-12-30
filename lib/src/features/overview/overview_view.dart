@@ -73,9 +73,10 @@ class _OverviewViewState extends State<OverviewView> {
                 ActivityChart(),
                 SizedBox(height: MySize.size15),
                 SizedBox(
-                  height: 552, // Adjust height as needed
+                  height: MySize.size552, // Adjust height as needed
                   child: MultiSeriesBarChart(),
                 ),
+                SizedBox(height: MySize.size15),
               ],
             ),
           ),
